@@ -1,0 +1,10 @@
+name: AlwaysHunger
+version: '${version}'
+api-version: 1.13
+main: hirosuke.alwayshunger.AlwaysHunger
+prefix: AlwaysHunger
+authors: [ Hirosuke ]
+description: Set hunger always
+commands:
+  hunger:
+    usage: /hunger on/off
