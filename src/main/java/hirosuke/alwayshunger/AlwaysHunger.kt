@@ -17,6 +17,7 @@ class AlwaysHunger : JavaPlugin() {
 
         saveDefaultConfig()
         getCommand("hunger").executor = CommandHunger()
+        getCommand("health").executor = CommandHunger()
         server.pluginManager.registerEvents(EventHunger(), this)
         logger.info("plugin has enabled.")
     }
